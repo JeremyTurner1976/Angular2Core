@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>    
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="1.1.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
+	  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
+    <PackageReference Include="xunit.runner.console" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="xunit.runners" Version="2.0.0" />
+	
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Source\Database\Angular2Core.Models\Angular2Core.Models.csproj" />
+    <ProjectReference Include="..\..\Source\Database\Angular2Core.Repositories\Angular2Core.Repositories.csproj" />
+    <ProjectReference Include="..\..\Source\Server\Angular2Core.Api\Angular2Core.Api.csproj" />
+    <ProjectReference Include="..\..\Source\Server\Angular2Core.Common\Angular2Core.Common.csproj" />
+    <ProjectReference Include="..\..\Source\Server\Angular2Core.WebServices\Angular2Core.WebServices.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+  </ItemGroup>
+
+</Project>
