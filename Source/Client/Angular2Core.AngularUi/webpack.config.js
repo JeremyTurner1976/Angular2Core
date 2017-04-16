@@ -1,5 +1,4 @@
-/// <binding ProjectOpened='Run - Development' />
-
+/// <binding ProjectOpened='Run - Development, Watch - Development, Hot' />
 var environment = (process.env.NODE_ENV || "development").trim();
 
 if (environment === "development") {
