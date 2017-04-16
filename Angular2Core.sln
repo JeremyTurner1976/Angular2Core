@@ -38,6 +38,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angular2Core.Api", "Source\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angular2Core.Tests", "Tests\Angular2Core.Tests\Angular2Core.Tests.csproj", "{440304CF-9635-49F2-9978-AD7047D69514}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular2Core.BusinessLogic", "Angular2Core.BusinessLogic\Angular2Core.BusinessLogic.csproj", "{BF02BF62-CF91-467B-80E9-45CEF6098B7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +84,10 @@ Global
 		{440304CF-9635-49F2-9978-AD7047D69514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{440304CF-9635-49F2-9978-AD7047D69514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{440304CF-9635-49F2-9978-AD7047D69514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF02BF62-CF91-467B-80E9-45CEF6098B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF02BF62-CF91-467B-80E9-45CEF6098B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF02BF62-CF91-467B-80E9-45CEF6098B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF02BF62-CF91-467B-80E9-45CEF6098B7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,5 +105,6 @@ Global
 		{EB6191E9-F32C-4A6C-A8B9-CE3E41F5AC8F} = {F64424AD-F932-48BE-8EE8-F661F14E6C27}
 		{77102C27-EB13-440C-A863-33671FBE4CE2} = {F64424AD-F932-48BE-8EE8-F661F14E6C27}
 		{440304CF-9635-49F2-9978-AD7047D69514} = {F8ECDC0A-3042-4A43-8285-4EC9932B8993}
+		{BF02BF62-CF91-467B-80E9-45CEF6098B7B} = {F64424AD-F932-48BE-8EE8-F661F14E6C27}
 	EndGlobalSection
 EndGlobal
