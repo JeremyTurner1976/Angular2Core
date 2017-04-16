@@ -13,20 +13,25 @@ import { AppRoutes } from './app.routes';
 
 import { AppComponent } from './app.component';
 
+import { MaterialModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import 'hammerjs';
+
 @NgModule({
-    imports: [
-        BrowserModule,
-        AppRoutes,
-        SharedModule,
-        CoreModule.forRoot(),
-        HomeModule
-    ],
+	imports: [
+		BrowserModule,
+		AppRoutes,
+		SharedModule,
+		CoreModule.forRoot(),
+		HomeModule
+	],
 
-    declarations: [
-        AppComponent
-    ],
+	declarations: [
+		AppComponent
+	],
 
-    bootstrap: [AppComponent],
+	bootstrap: [AppComponent],
 })
 
 export class AppModule { }

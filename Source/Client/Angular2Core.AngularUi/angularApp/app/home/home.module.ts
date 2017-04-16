@@ -6,21 +6,24 @@ import { FormsModule } from '@angular/forms';
 import { HomeRoutes } from './home.routes';
 import { HomeComponent } from './components/home.component';
 
+import { MdButtonModule } from '@angular/material';
+
 @NgModule({
-    imports: [
-        CommonModule,
-        FormsModule,
-        HttpModule,
-        HomeRoutes
-    ],
+	imports: [
+		CommonModule,
+		FormsModule,
+		HttpModule,
+		HomeRoutes,
+		MdButtonModule
+	],
 
-    declarations: [
-        HomeComponent
-    ],
+	declarations: [
+		HomeComponent
+	],
 
-    exports: [
-        HomeComponent
-    ]
+	exports: [
+		HomeComponent
+	]
 })
 
 export class HomeModule { }

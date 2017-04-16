@@ -1,3 +1,14 @@
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+
 a {
     color: #03A9F4;
+}
+
+/*Angular Material changes*/
+.mat-raised-button {
+    color: whitesmoke !important;
+}
+
+.mat-raised-button.btn-primary[disabled] {
+    background-color: #265a88;
 }
